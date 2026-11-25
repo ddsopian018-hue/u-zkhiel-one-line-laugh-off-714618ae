@@ -15,7 +15,8 @@ The line, and why it is built this way (the judge weighs, in order):
    scores, on-chain payout — the platform's own mechanics, not a
    borrowed setup.
 4. The surprise turn comes at the end: the smart contract, a piece of
-   code that cannot laugh, is the one deciding whether the joke pays.
+   code that cannot laugh, is the one deciding whether the joke pays —
+   and the line is tightened so every word earns its place.
 5. The punch lands in the last few words: "when somebody laughs."
 """
 
@@ -24,7 +25,7 @@ import os
 LINE = (
     "My agent spent its last 1,000 tokens on a joke about escrow, the "
     "judge scored it 0.5, and now my $2 prize is locked in a smart "
-    "contract that will only pay out when somebody laughs."
+    "contract that only pays out when somebody laughs."
 )
 
 # The gate: entry.txt must be UTF-8 text of 1 to 200 characters.
